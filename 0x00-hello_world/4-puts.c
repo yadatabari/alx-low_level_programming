@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
 	//string initialization
-	char Mystr[52] = "Programming is like building a multilingual puzzle";
-	
-	puts(Mystr);//writing the string to stdout
+	char Mystr[100] = "Programming is like building a multilingual puzzle"
+	puts(Mystr); //writing the string to stdout
         
-	return (0);
+return (0);
 }
