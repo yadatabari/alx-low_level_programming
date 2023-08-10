@@ -5,19 +5,19 @@
  */
 int main(void)
 {
-	char chartype;
-	int inttype;
-	float floattype;
-	long int longinttype;
-	long long int longlongtype;
+	char a;
+	int b;
+	float c;
+	long int d;
+	long long int e;
 
 	/*
 	 * sizeof evaluate the size of variable
 	 */
-	printf("Size of a char: %zu byte(s)\n", sizeof(chartype));
-	printf("Size of a int: %zu byte(s)\n", sizeof(inttype));
-	printf("Size of a float: %zu byte(s)\n", sizeof(floattype));
-	printf("Size of a long init: %u byte(s)\n", sizeof(longinttype));
-	printf("Size of a long long init: %u byte(s)\n", sizeof(longlongtype));
+	printf("Size of a char: %zu byte(s)\n", sizeof(a));
+	printf("Size of a int: %zu byte(s)\n", sizeof(b));
+	printf("Size of a float: %zu byte(s)\n", sizeof(c));
+	printf("Size of a long init: %u byte(s)\n", sizeof(d));
+	printf("Size of a long long init: %u byte(s)\n", sizeof(e));
 	return (0);
 }
