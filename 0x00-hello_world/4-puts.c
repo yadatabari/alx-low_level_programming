@@ -1,8 +1,9 @@
 #include <stdio.h>
-
-int main()
+/* entry point is main
+ * return:zero*/
+int main(void)
 {
-	char Mystr[100] = "Programming is like building a multilingual puzzle";
+	char Mystr[] = "Programming is like building a multilingual puzzle";
 	puts(Mystr);
         
 return (0);
