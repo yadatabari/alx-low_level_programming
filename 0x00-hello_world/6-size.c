@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <sstdlib.h>
+#include <stdlib.h>
+#include <unistd.h>
 /**
  * main - entry point
  * Return: always (0)
