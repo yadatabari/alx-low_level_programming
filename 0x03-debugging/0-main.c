@@ -6,7 +6,7 @@
 int main(void)
 {
 	int i;
-	/*The function will check wether the input is positive or negative or zero*/
+	/*The function will check wether the input is positive or negative, or zero*/
 	i = 0;
 	positive_or_negative(i);
 	return (0);
