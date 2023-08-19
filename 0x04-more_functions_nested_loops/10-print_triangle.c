@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_triangle - check the code
+ *print_triangle - print the code
  *Return: void
  *
  */
@@ -11,6 +11,8 @@ void print_traingle(int size)
 	{
 		_putchar('\n');
 	}
+	else
+	{
 	/*for loop will check the condition*/
 	for (i = 0; i <= size; i++)
 	{
@@ -24,4 +26,5 @@ void print_traingle(int size)
 		}
 		_putchar('\n');
 	}
+}
 }
