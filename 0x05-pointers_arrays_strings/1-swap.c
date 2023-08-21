@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *
- *swap_int - function that swap two parameter
+ *swap_int - Function that swap the accepted parameter
  *@a: First parameter
  *@b: Second parameter
  *Return: void
