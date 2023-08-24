@@ -1,10 +1,10 @@
 #include "main.h"
 #include <string.h>
 /**
- **_strcat - function that concatenate the strings 
+ **_strcat - function that concatenate the strings
  *@dest: First parameter
  *@src: second parameter
- *Return: 8dest
+ *Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
